@@ -1,6 +1,6 @@
 import React from "react"
-import {InstantSearch, SearchBox, Hits, RefinementList, Pagination, Panel} from 'react-instantsearch/dom';
 import { Container, Segment, Header, Icon, Grid, Divider, Image, Menu, Input, List } from "semantic-ui-react";
+import {InstantSearch, SearchBox, Hits, RefinementList, Pagination, Panel} from 'react-instantsearch/dom';
 
 function Searchcomp({hit, index}) {
   console.log(hit)
