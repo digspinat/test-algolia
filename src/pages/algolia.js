@@ -3,6 +3,7 @@ import {InstantSearch, SearchBox, Hits, RefinementList, Pagination, Panel} from 
 import { Container, Segment, Header, Icon, Grid, Divider, Image, Menu, Input, List } from "semantic-ui-react";
 
 function Searchcomp({hit, index}) {
+  console.log(hit)
   return (
     <Grid.Column mobile={16} tablet={8} computer={4}>
       <Image src={hit.manualImgixUrlProduct} height="401" width="310"/>
