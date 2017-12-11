@@ -8,6 +8,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.0.0-beta.34",
     "gatsby": "^1.9.119",
     "gatsby-link": "^1.6.28",
     "react-helmet": "^5.2.0",
