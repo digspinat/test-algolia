@@ -14,5 +14,8 @@
     "react-helmet": "^5.2.0",
     "react-instantsearch": "^4.2.0",
     "semantic-ui-react": "^0.77.1"
+  },
+  "devDependencies": {
+    "webpack-hot-middleware": "^2.21.0"
   }
 }

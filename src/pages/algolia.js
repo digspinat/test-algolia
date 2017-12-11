@@ -19,7 +19,7 @@ export default () => {
   return (
     <div className="ui container">
       <Container>
-        <InstantSearch appId="YZO8M6AZ6J" apiKey="74516bbcef74ec917e2acbcd0df2df0f" indexName="contentful-cml">
+        <InstantSearch appId="YZO8M6AZ6J" apiKey="74516bbcef74ec917e2acbcd0df2df0f" indexName="algolia-test">
           <Grid>
             <Grid.Column mobile={16} tablet={8} computer={4}>
               <Panel title="Brand">
