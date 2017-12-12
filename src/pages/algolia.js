@@ -52,7 +52,7 @@ export default () => {
                 <Grid.Column mobile={16} tablet={8} computer={12}>
                   <SearchBox />
                   <br /><br />
-                  <Hits /><br />
+                  <Hits hitComponent={Searchcomp} /><br />
                 </Grid.Column>
               </Grid>
               <Grid>
